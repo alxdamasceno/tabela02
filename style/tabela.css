@@ -1,0 +1,105 @@
+body {
+    background-color: lightgreen;
+}
+
+header {
+    background-color: mediumaquamarine;
+    height: 150px;
+    padding: 10px 5px;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+header p {
+    font-family: cursive;
+    font-size: 1.1rem;
+    text-align: right;
+    padding: 50px;
+    color: mediumvioletred;
+}
+
+header:hover {
+    background-color: darkgray;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: lightyellow;
+    text-shadow: 2px 2px 3px black;
+    font-size: 30px;
+}
+
+table {
+    background-color: lightslategrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: auto;
+    margin: auto;
+}
+
+th,
+td {
+    border: 1px solid rgba(18, 19, 18, 0.555);
+    padding: 8px;
+    text-align: center;
+}
+
+tr :nth-child(even) {
+    background-color: #dddd;
+}
+
+td.fla:hover {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    background-image: linear-gradient(70deg, black 40%, red 60%);
+}
+
+td.flu:hover {
+    background-image: linear-gradient(70deg, green 30%, #9e1010 40%, white 80%);
+    font-weight: bolder;
+}
+
+td.vas:hover {
+    background-image: linear-gradient(70deg, black 40%, white 60%);
+    color: red;
+    font-weight: bolder;
+}
+
+td.bota:hover {
+    background-image: linear-gradient(60deg, white 40%, black 60%);
+    color: red;
+    font-weight: 700;
+}
+
+td.palm:hover {
+    background-image: linear-gradient(70deg, green 40%, white 60%);
+    font-weight: bold;
+}
+
+td.saoP:hover {
+    background-image: linear-gradient(70deg, rgb(209, 9, 9) 30%, white 40%, black 80%);
+    color: white;
+    font-weight: bold;
+}
+
+td.san:hover {
+    background-image: linear-gradient(70deg, white 20%, black 50%);
+    color: white;
+    font-weight: bold;
+}
+
+td.corin:hover {
+    background-image: linear-gradient(70deg, black 20%, white 60%);
+    color: red;
+    font-weight: bold;
+}
+
+td.brag:hover {
+    background-image: linear-gradient(70deg, black 20%, white 60%);
+    color: red;
+    font-weight: bold;
+}
