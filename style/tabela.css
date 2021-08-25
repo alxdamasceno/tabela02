@@ -12,14 +12,6 @@ header {
     box-shadow: 2px 2px 2px black;
 }
 
-header p {
-    font-family: cursive;
-    font-size: 1.1rem;
-    text-align: right;
-    padding: 50px;
-    color: mediumvioletred;
-}
-
 header:hover {
     background-color: darkgray;
 }
@@ -29,7 +21,7 @@ h1 {
     text-align: center;
     color: lightyellow;
     text-shadow: 2px 2px 3px black;
-    font-size: 30px;
+    font-size: 39px;
 }
 
 table {
