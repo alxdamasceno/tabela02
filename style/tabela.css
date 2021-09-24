@@ -24,75 +24,81 @@ h1 {
     font-size: 39px;
 }
 
-table {
+#customers {
     background-color: lightslategrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 1px solid black;
     border-radius: 10px;
-    width: auto;
+    min-width: 320px;
+    max-width: auto;
     margin: auto;
 }
 
-th,
-td {
+#customers td,
+th {
     border: 1px solid rgba(18, 19, 18, 0.555);
-    padding: 8px;
-    text-align: center;
+    padding: 5px;
 }
 
-tr :nth-child(even) {
+#customers tr :nth-child(even) {
     background-color: #dddd;
 }
 
-td.fla:hover {
+#customers td.fla:hover {
     background-color: red;
     color: white;
     font-weight: bolder;
     background-image: linear-gradient(70deg, black 40%, red 60%);
 }
 
-td.flu:hover {
+#customers td.flu:hover {
     background-image: linear-gradient(70deg, green 30%, #9e1010 40%, white 80%);
     font-weight: bolder;
 }
 
-td.vas:hover {
+#customers td.vas:hover {
     background-image: linear-gradient(70deg, black 40%, white 60%);
     color: red;
     font-weight: bolder;
 }
 
-td.bota:hover {
+#customers td.bota:hover {
     background-image: linear-gradient(60deg, white 40%, black 60%);
     color: red;
     font-weight: 700;
 }
 
-td.palm:hover {
+#customers td.palm:hover {
     background-image: linear-gradient(70deg, green 40%, white 60%);
     font-weight: bold;
 }
 
-td.saoP:hover {
+#customers td.saoP:hover {
     background-image: linear-gradient(70deg, rgb(209, 9, 9) 30%, white 40%, black 80%);
     color: white;
     font-weight: bold;
 }
 
-td.san:hover {
+#customers td.san:hover {
     background-image: linear-gradient(70deg, white 20%, black 50%);
     color: white;
     font-weight: bold;
 }
 
-td.corin:hover {
+#customers td.corin:hover {
     background-image: linear-gradient(70deg, black 20%, white 60%);
     color: red;
     font-weight: bold;
 }
 
-td.brag:hover {
+#customers td.brag:hover {
     background-image: linear-gradient(70deg, black 20%, white 60%);
     color: red;
     font-weight: bold;
+}
+
+#customers th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
 }
